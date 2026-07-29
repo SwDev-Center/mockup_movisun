@@ -30,6 +30,7 @@ import blue2 from "@/imports/blue2.png";
 import blue3 from "@/imports/blue3.png";
 import blue4 from "@/imports/blue4.png";
 import blue5 from "@/imports/blue5.png";
+import bannerParlante from "@/imports/bannerParlante.png";
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
@@ -136,8 +137,8 @@ const CATEGORIES = [
     id: "bluetooth", label: "Bluetooth y Parlantes", tagline: "Sonido sin límites",
     description: "Parlantes, diademas inalámbricas y accesorios Bluetooth premium.",
     icon: <Bluetooth size={16} />, color: "#122650",
-    coverImg: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=900&h=500&fit=crop&auto=format",
-    heroImg: "https://images.unsplash.com/photo-1599669454699-248893623440?w=600&h=600&fit=crop&auto=format",
+    coverImg: bannerParlante,
+    heroImg: bannerParlante,
     subcategories: [
       { label: "Diademas", icon: <Headphones size={13} /> },
       { label: "Parlantes", icon: <Speaker size={13} /> },
