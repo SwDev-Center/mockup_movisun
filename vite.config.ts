@@ -24,6 +24,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/mockup_movisun/',
   resolve: {
     alias: {
       // Alias @ to the src directory
