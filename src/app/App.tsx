@@ -14,6 +14,22 @@ import img2 from "@/imports/image-2.png";
 import img3 from "@/imports/image-3.png";
 import img4 from "@/imports/image-4.png";
 import img5 from "@/imports/image-5.png";
+import audi1 from "@/imports/audi1.png";
+import audi2 from "@/imports/audi2.png";
+import dia1 from "@/imports/dia1.png";
+import dia2 from "@/imports/dia2.png";
+import par1 from "@/imports/par1.png";
+import par2 from "@/imports/par2.png";
+import loca1 from "@/imports/loca1.png";
+import inter1 from "@/imports/inter1.png";
+import inter2 from "@/imports/inter2.png";
+import gamerImg from "@/imports/gamer.png";
+import gamer2 from "@/imports/gamer2.png";
+import blue1 from "@/imports/blue1.png";
+import blue2 from "@/imports/blue2.png";
+import blue3 from "@/imports/blue3.png";
+import blue4 from "@/imports/blue4.png";
+import blue5 from "@/imports/blue5.png";
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
@@ -165,7 +181,7 @@ const PRODUCTS: Product[] = [
     category: "audio", subcategory: "Manos libres",
     description: "TWS con cancelación activa de ruido (ANC), 30h autonomía total, driver 10mm. Sonido que te aísla del mundo.",
     features: ["ANC activo", "30h autonomía", "IPX4", "Carga rápida 15min = 2h"],
-    image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&h=500&fit=crop&auto=format",
+    image: audi1,
     badge: "Más vendido", rating: 4.6, reviews: 342, colors: ["Negro", "Blanco", "Azul"], addedDaysAgo: 20,
   },
   {
@@ -173,16 +189,8 @@ const PRODUCTS: Product[] = [
     category: "audio", subcategory: "Manos libres",
     description: "Auriculares deportivos con gancho, micrófono HD e IPX5. Ideales para entrenar.",
     features: ["Gancho ergonómico", "Micrófono HD", "8h batería", "IPX5"],
-    image: "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&h=500&fit=crop&auto=format",
+    image: audi2,
     rating: 4.3, reviews: 156, colors: ["Negro", "Rojo"], addedDaysAgo: 60,
-  },
-  {
-    id: 6, name: "Cargador GaN 65W", price: 39900, originalPrice: 54900,
-    category: "audio", subcategory: "Cargadores",
-    description: "Cargador de pared GaN 65W, 2 USB-C + 1 USB-A. Tecnología de nitruro de galio ultra compacta.",
-    features: ["65W PD", "GaN compacto", "2 USB-C + 1 USB-A", "Protección térmica"],
-    image: "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=500&h=500&fit=crop&auto=format",
-    badge: "Oferta", rating: 4.8, reviews: 203, addedDaysAgo: 25,
   },
   {
     id: 7, name: "Cargador Inalámbrico 15W", price: 34900,
@@ -191,14 +199,6 @@ const PRODUCTS: Product[] = [
     features: ["15W Qi", "Indicador LED", "Antideslizante", "Protección sobrecarga"],
     image: "https://images.unsplash.com/photo-1601524909162-ae8725290836?w=500&h=500&fit=crop&auto=format",
     rating: 4.5, reviews: 118, addedDaysAgo: 40,
-  },
-  {
-    id: 8,     name: "Power Bank 20000mAh", price: 69900, originalPrice: 89900,
-    category: "audio", subcategory: "Power Bank",
-    description: "22.5W carga rápida, 3 salidas simultáneas, pantalla LED digital. Potencia para todo el día.",
-    features: ["20000mAh", "22.5W rápido", "3 salidas", "Pantalla LED"],
-    image: "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=500&fit=crop&auto=format",
-    badge: "Más vendido", rating: 4.7, reviews: 289, addedDaysAgo: 15,
   },
   {
     id: 9,     name: "Power Bank Slim 10000mAh", price: 44900,
@@ -229,7 +229,7 @@ const PRODUCTS: Product[] = [
     category: "bluetooth", subcategory: "Parlantes",
     description: "40W potencia, sonido 360°, 20h batería, IPX7, RGB y True Wireless Stereo. La fiesta donde vayas.",
     features: ["40W", "20h batería", "IPX7", "RGB", "TWS"],
-    image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&h=500&fit=crop&auto=format",
+    image: par1,
     badge: "Nuevo", rating: 4.8, reviews: 167, colors: ["Negro", "Azul", "Rojo"], isNew: true, addedDaysAgo: 3,
   },
   {
@@ -237,7 +237,7 @@ const PRODUCTS: Product[] = [
     category: "bluetooth", subcategory: "Parlantes",
     description: "10W, 12h batería, mosquetón incluido, IPX5. Compacto, potente, aventurero.",
     features: ["10W", "12h batería", "IPX5", "Mosquetón"],
-    image: "https://images.unsplash.com/photo-1564424224827-cd24b8915874?w=500&h=500&fit=crop&auto=format",
+    image: par2,
     rating: 4.4, reviews: 231, colors: ["Negro", "Verde", "Naranja"], addedDaysAgo: 18,
   },
   {
@@ -261,7 +261,7 @@ const PRODUCTS: Product[] = [
     category: "bluetooth", subcategory: "Diademas",
     description: "Diadema gaming inalámbrica con sonido 7.1 surround, micrófono ANC, RGB personalizable y 20h de batería.",
     features: ["7.1 surround", "Mic ANC", "RGB", "20h", "Multi-platform"],
-    image: "https://images.unsplash.com/photo-1599669454699-248893623440?w=500&h=500&fit=crop&auto=format",
+    image: dia1,
     badge: "Oferta", rating: 4.7, reviews: 198, colors: ["Negro", "Blanco"], addedDaysAgo: 12,
   },
   {
@@ -269,8 +269,92 @@ const PRODUCTS: Product[] = [
     category: "bluetooth", subcategory: "Diademas",
     description: "Diadema over-ear con cancelación activa de ruido, 40h de autonomía y sonido Hi-Fi. Para escuchar en serio.",
     features: ["ANC premium", "40h batería", "Hi-Fi audio", "Plegable", "Carga rápida"],
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop&auto=format",
+    image: dia2,
     badge: "Nuevo", rating: 4.8, reviews: 76, colors: ["Negro", "Blanco", "Gris"], isNew: true, addedDaysAgo: 4,
+  },
+  // ── Bluetooth → Audífonos ──
+  {
+    id: 18, name: "Audífonos TWS Mini", price: 35900,
+    category: "bluetooth", subcategory: "Audífonos",
+    description: "Audífonos TWS compactos con estuche de carga, sonido equilibrado y 20h de autonomía. Ideales para el día a día.",
+    features: ["TWS", "20h total", "Estuche de carga", "Bluetooth 5.3"],
+    image: blue1,
+    rating: 4.3, reviews: 95, colors: ["Negro", "Blanco"], addedDaysAgo: 10,
+  },
+  {
+    id: 19, name: "Audífonos Deportivos Air", price: 49900,
+    category: "bluetooth", subcategory: "Audífonos",
+    description: "Diseño ergonómico con gancho, IPX5 y drivers de 12mm. El compañero perfecto para tu entrenamiento.",
+    features: ["Gancho deportivo", "IPX5", "Driver 12mm", "10h batería"],
+    image: blue2,
+    rating: 4.4, reviews: 72, colors: ["Negro", "Azul", "Rojo"], addedDaysAgo: 8,
+  },
+  {
+    id: 20, name: "Audífonos ANC Pro", price: 79900,
+    category: "bluetooth", subcategory: "Audífonos",
+    description: "Cancelación activa de ruido de última generación, 35h de reproducción y carga inalámbrica.",
+    features: ["ANC híbrido", "35h autonomía", "Carga inalámbrica", "IPX4"],
+    image: blue3,
+    badge: "Nuevo", rating: 4.7, reviews: 48, colors: ["Negro", "Gris"], isNew: true, addedDaysAgo: 2,
+  },
+  {
+    id: 21, name: "Audífonos Plegables XT", price: 29900,
+    category: "bluetooth", subcategory: "Audífonos",
+    description: "Audífonos plegables ultraligeros con micro SD, FM y 8h de música. Sonido potente a bajo costo.",
+    features: ["Plegable", "Micro SD", "FM Radio", "8h batería"],
+    image: blue4,
+    rating: 4.1, reviews: 134, colors: ["Negro", "Azul marino"], addedDaysAgo: 30,
+  },
+  {
+    id: 22, name: "Audífonos Hi-Fi Premium", price: 94900,
+    category: "bluetooth", subcategory: "Audífonos",
+    description: "Sonido Hi-Fi con códec LDAC, drivers de 13.5mm y 40h de batería. Para audiófilos exigentes.",
+    features: ["LDAC", "Driver 13.5mm", "40h batería", "Carga rápida USB-C"],
+    image: blue5,
+    badge: "Nuevo", rating: 4.9, reviews: 31, colors: ["Negro", "Plata"], isNew: true, addedDaysAgo: 1,
+  },
+  // ── Bluetooth → Localizador ──
+  {
+    id: 23, name: "Localizador Bluetooth Key Finder", price: 22900,
+    category: "bluetooth", subcategory: "Localizador",
+    description: "Localizador inteligente con app gratuita. Encuentra tus llaves, billetera o mochila en segundos. Alarma integrada y alcance de 50m.",
+    features: ["App gratuita", "Alarma integrada", "Alcance 50m", "Batería reemplazable"],
+    image: loca1,
+    rating: 4.2, reviews: 56, colors: ["Negro", "Blanco", "Azul"], addedDaysAgo: 14,
+  },
+  // ── Bluetooth → Intercomunicadores ──
+  {
+    id: 24, name: "Intercomunicador Moto V1", price: 59900,
+    category: "bluetooth", subcategory: "Intercomunicadores",
+    description: "Intercomunicador Bluetooth para casco, hasta 800m de alcance, con cancelación de ruido y música en streaming.",
+    features: ["800m alcance", "Cancelación ruido", "Music streaming", "8h batería"],
+    image: inter1,
+    rating: 4.4, reviews: 89, colors: ["Negro"], addedDaysAgo: 20,
+  },
+  {
+    id: 25, name: "Intercomunicador Moto V2", price: 89900,
+    category: "bluetooth", subcategory: "Intercomunicadores",
+    description: "Intercomunicador premium multipunto, conector para 4 personas, 1200m de alcance y sonido HD.",
+    features: ["Multipunto 4 pers.", "1200m alcance", "Sonido HD", "12h batería", "Carga rápida"],
+    image: inter2,
+    badge: "Nuevo", rating: 4.6, reviews: 37, colors: ["Negro", "Gris"], isNew: true, addedDaysAgo: 6,
+  },
+  // ── Bluetooth → Gamer ──
+  {
+    id: 26, name: "Auriculares Gamer", price: 74900,
+    category: "bluetooth", subcategory: "Gamer",
+    description: "Auriculares gaming con sonido envolvente 7.1, micrófono retráctil y almohadillas de memory foam.",
+    features: ["Sonido 7.1", "Mic retráctil", "Memory foam", "RGB", "Multi-platform"],
+    image: gamerImg,
+    rating: 4.5, reviews: 112, colors: ["Negro"], addedDaysAgo: 12,
+  },
+  {
+    id: 27, name: "Audífonos Gamer", price: 89900,
+    category: "bluetooth", subcategory: "Gamer",
+    description: "Audífonos gaming inalámbricos con baja latencia, batería de 30h y drivers de 50mm para experiencia inmersiva.",
+    features: ["Inalámbrico", "Baja latencia", "Driver 50mm", "30h batería", "Mic ANC"],
+    image: gamer2,
+    badge: "Nuevo", rating: 4.7, reviews: 63, colors: ["Negro", "Blanco"], isNew: true, addedDaysAgo: 4,
   },
 ];
 
